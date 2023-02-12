@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.header{
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+   
+    box-sizing: border-box;
+    justify-content: space-between;
+
+
+
+    >img{
+        height: 20%;
+
+    }
+    >div{
+       
+        width: 100%;
+        margin-left: 2vmax;
+
+
+        >a{
+            margin: 2vmax;
+            font-size: 1.3rem;
+            font-weight: 300;
+
+        }
+
+
+
+    }
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
